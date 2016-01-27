@@ -13,6 +13,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'taglist.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'rking/ag.vim'
 
 
 " All of your Plugins must be added before the following line
