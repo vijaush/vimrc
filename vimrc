@@ -175,7 +175,7 @@ endif
 
 
 let Tlist_Use_Right_Window=1
-
+map <F12> :TlistToggle<CR> 
 
 set cscopeverbose
 set incsearch
@@ -190,3 +190,9 @@ set smartcase
 set smartindent
 set directory=/tmp
 set wildmenu    " list command autocomplete
+
+map <F3> :NERDTreeFind<CR>
+silent! nmap <F4> :NERDTreeToggle<CR>
+
+let g:NERDTreeMapActivateNode="<F3>"
+let g:NERDTreeMapPreview="<F4>"
