@@ -193,6 +193,8 @@ set wildmenu    " list command autocomplete
 
 map <F3> :NERDTreeFind<CR>
 silent! nmap <F4> :NERDTreeToggle<CR>
+map   <F1>   :exec("tag ".expand("<cword>"))<CR>
+map   <F2>   :pop<cr>
 
 let g:NERDTreeMapActivateNode="<F3>"
 let g:NERDTreeMapPreview="<F4>"
